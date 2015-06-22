@@ -1,5 +1,5 @@
 var websocket = require('websocket-stream');
-var inject = require('reconnect-core');
+var inject = require('tribemedia-reconnect-core');
 
 module.exports = inject(function () {
   // Create new websocket-stream instance
